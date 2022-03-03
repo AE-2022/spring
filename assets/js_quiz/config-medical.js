@@ -2,7 +2,7 @@ var quizJSON = {
     "info": {
         "name":    "Medical",
         "main":    "",
-        "results": "<h5>Make notes</h5>",
+        "results": "",
         "level1":  "Excellent!",
         "level2":  "Good!",
         "level3":  "Average",
@@ -18,7 +18,7 @@ var quizJSON = {
                 {"option": "pharmacy",      "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span>pharmacy</p>",
-            "incorrect": "<p><span>Fail.</span>pharmacy</p>" // no comma here
+            "incorrect": "<p><span>Fail!</span>pharmacy</p>" // no comma here
         },
         { // Question 2
             "q": "Choose your answer",
@@ -28,7 +28,7 @@ var quizJSON = {
                 {"option": "prescription",      "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span>prescription</p>",
-            "incorrect": "<p><span>Fail.</span>prescription</p>" // no comma here
+            "incorrect": "<p><span>Fail!</span>prescription</p>" // no comma here
         },
        
         { // Question 3
@@ -99,7 +99,7 @@ var quizJSON = {
             "q": "Choose your answer",
             "a": [
                 {"option": "anaemia",    "correct": true},
-                {"option": "ironic",    "correct": false},
+                {"option": "angina",    "correct": false},
                 {"option": "amnesia",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>anaemia</p>",
@@ -155,7 +155,7 @@ var quizJSON = {
             "a": [
                 {"option": "wacsine",    "correct": false},
                 {"option": "vaccine",     "correct": true},
-                {"option": "vaksene",     "correct": false} // no comma here
+                {"option": "vacsene",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>vaccine</p>",
             "incorrect": "<p><span>Fail!</span>vaccine</p>" // no comma here
@@ -198,8 +198,8 @@ var quizJSON = {
             "q": "Choose your answer",
             "a": [
                 {"option": "sign",    "correct": false},
-                {"option": "symptom",     "correct": false},
-                {"option": "indication",     "correct": true} // no comma here
+                {"option": "symptom",     "correct": true},
+                {"option": "indication",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>symptom</p>",
             "incorrect": "<p><span>Fail!</span>symptom</p>" // no comma here
@@ -285,9 +285,9 @@ var quizJSON = {
         { // Question 26
             "q": "Choose your answer",
             "a": [
-                {"option": "ouch!",    "correct": false},
-                {"option": "aye aye!",     "correct": false},
-                {"option": "oomph!",     "correct": true} // no comma here
+                {"option": "ouch!",    "correct": true},
+                {"option": "eek!",     "correct": false},
+                {"option": "oomph!",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>ouch!</p>",
             "incorrect": "<p><span>Fail!</span>ouch!</p>" // no comma here
