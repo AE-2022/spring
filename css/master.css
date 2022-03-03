@@ -112,13 +112,13 @@ ul.responses li p span {
 ul.responses li.correct p span {
     color: yellow;
     font-size: 1.2em;
-	line-height: 1.2em;
+	line-height: 1.6em;
 }
 
 ul.responses li.incorrect p span {
     color: #ccc;
     font-size: 1.2em;
-	line-height: 1.2em;
+	line-height: 1.6em;
 }
 
 .quizResults h3 {
