@@ -2,7 +2,7 @@ var quizJSON = {
     "info": {
         "name":    "Animals",
         "main":    "",
-        "results": "<h4>You may close this window.</h4>",
+        "results": "",
         "level1":  "Excellent!",
         "level2":  "Good!",
         "level3":  "Average",

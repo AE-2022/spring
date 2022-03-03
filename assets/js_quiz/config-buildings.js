@@ -1,8 +1,8 @@
 var quizJSON = {
     "info": {
-        "name":    "Buildings and shops",
+        "name":    "Buildings and Shops",
         "main":    "",
-        "results": "<h5>Make notes</h5>",
+        "results": "",
         "level1":  "Excellent!",
         "level2":  "Good!",
         "level3":  "Average",
