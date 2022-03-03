@@ -18,7 +18,7 @@ var quizJSON = {
                 {"option": "living building",      "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>apartment building</p>",
-            "incorrect": "<p><span>Fail.</span>apartment building</p>" // no comma here
+            "incorrect": "<p><span>Fail!</span>apartment building</p>" // no comma here
         },
         { // Question 2
             "q": "Choose your answer",
@@ -28,7 +28,7 @@ var quizJSON = {
                 {"option": "bus port",      "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>bus terminal</p>",
-            "incorrect": "<p><span>Fail.</span>bus terminal</p>" // no comma here
+            "incorrect": "<p><span>Fail!</span>bus terminal</p>" // no comma here
         },
        
         { // Question 3
@@ -124,7 +124,7 @@ var quizJSON = {
             "a": [
                 {"option": "beauty salon",    "correct": true},
                 {"option": "ladies hair shop",     "correct": false},
-                {"option": "women's beauty",     "correct": false} // no comma here
+                {"option": "manicure salon",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>beauty salon</p>",
             "incorrect": "<p><span>Fail!</span>beauty salon</p>" // no comma here
@@ -168,7 +168,7 @@ var quizJSON = {
             "a": [
                 {"option": "prison",    "correct": true},
                 {"option": "joint",     "correct": false},
-                {"option": "POW camp",     "correct": false} // no comma here
+                {"option": "detention",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>prison</p>",
             "incorrect": "<p><span>Fail!</span>prison</p>" // no comma here
@@ -243,7 +243,7 @@ var quizJSON = {
         { // Question 22
             "q": "Choose your answer",
             "a": [
-                {"option": "vomitorium",    "correct": false},
+                {"option": "large hall",    "correct": false},
                 {"option": "auditorium",     "correct": true},
                 {"option": "audiovisual hall",     "correct": false} // no comma here
             ],
@@ -287,7 +287,7 @@ var quizJSON = {
         { // Question 26
             "q": "Choose your answer",
             "a": [
-                {"option": "Japanese drinking bar",    "correct": false},
+                {"option": "Japanese alcohol bar",    "correct": false},
                 {"option": "Japanese drinkery",     "correct": false},
                 {"option": "Japanese-style pub",     "correct": true} // no comma here
             ],
