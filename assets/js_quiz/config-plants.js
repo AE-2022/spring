@@ -1,12 +1,8 @@
-// Setup your quiz text and questions here
-
-// NOTE: pay attention to commas, IE struggles with those bad boys
-
 var quizJSON = {
     "info": {
         "name":    "Plants",
         "main":    "",
-        "results": "<h5>Make notes</h5>",
+        "results": "",
         "level1":  "Excellent!",
         "level2":  "Good!",
         "level3":  "Average",
@@ -22,7 +18,7 @@ var quizJSON = {
                 {"option": "oak",      "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>cedar</p>",
-            "incorrect": "<p><span>Fail.</span>cedar</p>" // no comma here
+            "incorrect": "<p><span>Fail!</span>cedar</p>" // no comma here
         },
         { // Question 2
             "q": "Choose your answer",
@@ -32,7 +28,7 @@ var quizJSON = {
                 {"option": "pine bud",      "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>pine cone</p>",
-            "incorrect": "<p><span>Fail.</span>pine cone</p>" // no comma here
+            "incorrect": "<p><span>Fail!</span>pine cone</p>" // no comma here
         },
        
         { // Question 3
@@ -192,12 +188,12 @@ var quizJSON = {
         { // Question 17
             "q": "Choose your answer",
             "a": [
-                {"option": "chrysanthemum",    "correct": false},
-                {"option": "daffodil",     "correct": false},
-                {"option": "sunflower",     "correct": true} // no comma here
+                {"option": "herbalism",    "correct": false},
+                {"option": "mycology",     "correct": false},
+                {"option": "botany",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>sunflower</p>",
-            "incorrect": "<p><span>Fail!</span>sunflower</p>" // no comma here
+            "correct": "<p><span>Correct!</span>botany</p>",
+            "incorrect": "<p><span>Fail!</span>botany</p>" // no comma here
         },
 
          { // Question 18
