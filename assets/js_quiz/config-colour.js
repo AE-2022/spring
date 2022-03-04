@@ -60,12 +60,12 @@ var quizJSON = {
          { // Question 5
             "q": "Choose your answer",
             "a": [
-                {"option": "rust",    "correct": false},
-                {"option": "orange yellow",    "correct": false},
-                {"option": "amber",     "correct": true} // no comma here
+                {"option": "orange",    "correct": false},
+                {"option": "amber",    "correct": false},
+                {"option": "both are OK",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>amber</p>",
-            "incorrect": "<p><span>Fail!</span>amber</p>" // no comma here
+            "correct": "<p><span>Correct!</span>both are OK</p>",
+            "incorrect": "<p><span>Fail!</span>both are OK</p>" // no comma here
         },
 
         { // Question 6
@@ -126,53 +126,53 @@ var quizJSON = {
         { // Question 11
             "q": "Choose your answer",
             "a": [
-                {"option": "bowel",    "correct": false},
-                {"option": "tub",    "correct": false},
-                {"option": "sink",     "correct": true} // no comma here
+                {"option": "rough",    "correct": true},
+                {"option": "jagged",    "correct": false},
+                {"option": "grated",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>sink</p>",
-            "incorrect": "<p><span>Fail!</span>sink</p>" // no comma here
+            "correct": "<p><span>Correct!</span>rough</p>",
+            "incorrect": "<p><span>Fail!</span>rough</p>" // no comma here
         },
 
         { // Question 12
             "q": "Choose your answer",
             "a": [
-                {"option": "tap",    "correct": true},
-                {"option": "valve",    "correct": false},
-                {"option": "both are OK",     "correct": false} // no comma here
+                {"option": "stringy",    "correct": false},
+                {"option": "silky",    "correct": true},
+                {"option": "softly",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>tap</p>",
-            "incorrect": "<p><span>Fail!</span>tap</p>" // no comma here
+            "correct": "<p><span>Correct!</span>silky</p>",
+            "incorrect": "<p><span>Fail!</span>silky</p>" // no comma here
         },
 
         { // Question 13
             "q": "Choose your answer",
             "a": [
-                {"option": "fridge",    "correct": false},
-                {"option": "refridgerator",    "correct": false},
-                {"option": "both are OK",     "correct": true} // no comma here
+                {"option": "smooth",    "correct": true},
+                {"option": "jagged",    "correct": false},
+                {"option": "serrated",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>Both are OK</p>",
-            "incorrect": "<p><span>Fail!</span>Both are OK</p>" // no comma here
+            "correct": "<p><span>Correct!</span>smooth</p>",
+            "incorrect": "<p><span>Fail!</span>smooth</p>" // no comma here
         },
 
         { // Question 14
             "q": "Choose your answer",
             "a": [
-                {"option": "hair dryer",    "correct": false},
-                {"option": "blow dryer",    "correct": false},
-                {"option": "both are OK",     "correct": true} // no comma here
+                {"option": "flowery",    "correct": false},
+                {"option": "powdery",    "correct": true},
+                {"option": "dusty",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>Both are OK</p>",
-            "incorrect": "<p><span>Fail!</span>Both are OK</p>" // no comma here
+            "correct": "<p><span>Correct!</span>powdery</p>",
+            "incorrect": "<p><span>Fail!</span>powdery</p>" // no comma here
         },
 
         { // Question 15
             "q": "Choose your answer",
             "a": [
-                {"option": "brush",    "correct": false},
-                {"option": "broom",    "correct": true},
-                {"option": "both are OK",     "correct": false} // no comma here
+                {"option": "ziggy",    "correct": false},
+                {"option": "zaggy",    "correct": false},
+                {"option": "jagged",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span>broom</p>",
             "incorrect": "<p><span>Fail!</span>broom</p>" // no comma here
@@ -181,134 +181,57 @@ var quizJSON = {
         { // Question 16
             "q": "Choose your answer",
             "a": [
-                {"option": "coffee table",    "correct": true},
-                {"option": "low table",    "correct": false},
-                {"option": "TV table",     "correct": false} // no comma here
+                {"option": "greasy",    "correct": true},
+                {"option": "squishy",    "correct": false},
+                {"option": "moist",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>coffee table</p>",
-            "incorrect": "<p><span>Fail!</span>coffee table</p>" // no comma here
+            "correct": "<p><span>Correct!</span>greasy</p>",
+            "incorrect": "<p><span>Fail!</span>greasy</p>" // no comma here
         },
 
         { // Question 17
             "q": "Choose your answer",
             "a": [
-                {"option": "strong tape",    "correct": false},
-                {"option": "silver tape",    "correct": false},
-                {"option": "duct tape",     "correct": true} // no comma here
+                {"option": "runny",    "correct": false},
+                {"option": "sticky",    "correct": false},
+                {"option": "slimey",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>duct tape</p>",
-            "incorrect": "<p><span>Fail!</span>duct tape</p>" // no comma here
+            "correct": "<p><span>Correct!</span>slimey</p>",
+            "incorrect": "<p><span>Fail!</span>slimey</p>" // no comma here
         },
 
          { // Question 18
             "q": "Choose your answer",
             "a": [
-                {"option": "bathroom meter",    "correct": false},
-                {"option": "bathroom weigher",    "correct": false},
-                {"option": "bathroom scales",     "correct": true} // no comma here
+                {"option": "slimey",    "correct": false},
+                {"option": "sticky",    "correct": true},
+                {"option": "runny",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>bathroom scales</p>",
-            "incorrect": "<p><span>Fail!</span>bathroom scales</p>" // no comma here
+            "correct": "<p><span>Correct!</span>sticky</p>",
+            "incorrect": "<p><span>Fail!</span>sticky</p>" // no comma here
         },
 
         { // Question 19
             "q": "Choose your answer",
             "a": [
-                {"option": "electric board",    "correct": false},
-                {"option": "multi plug",    "correct": false},
-                {"option": "power board",     "correct": true} // no comma here
+                {"option": "rough",    "correct": false},
+                {"option": "coarse",    "correct": false},
+                {"option": "both are OK",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>power board</p>",
-            "incorrect": "<p><span>Fail!</span>power board</p>" // no comma here
+            "correct": "<p><span>Correct!</span>both are OK</p>",
+            "incorrect": "<p><span>Fail!</span>both are OK</p>" // no comma here
         },
 
         { // Question 20
             "q": "Choose your answer",
             "a": [
-                {"option": "socket",    "correct": true},
-                {"option": "plug hole",    "correct": false},
-                {"option": "electric board",     "correct": false} // no comma here
+                {"option": "fluffy",    "correct": true},
+                {"option": "molty",    "correct": false},
+                {"option": "whispy",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>socket</p>",
-            "incorrect": "<p><span>Fail!</span>socket</p>" // no comma here
-        },   
-
-        { // Question 21
-            "q": "Choose your answer",
-            "a": [
-                {"option": "electric range",    "correct": false},
-                {"option": "microwave oven",     "correct": true},
-                {"option": "pulse oven",     "correct": false} // no comma here
-            ],
-            "correct": "<p><span>Correct!</span>microwave oven</p>",
-            "incorrect": "<p><span>Fail!</span>microwave oven</p>" // no comma here
-        },   
-
-        { // Question 22
-            "q": "Choose your answer",
-            "a": [
-                {"option": "mug cup",    "correct": false},
-                {"option": "coffee mug",     "correct": true},
-                {"option": "hot mug",     "correct": false} // no comma here
-            ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span>coffee mug</p>" // no comma here
-        },
-
-        { // Question 23
-            "q": "Choose your answer",
-            "a": [
-                {"option": "clothes machine",    "correct": false},
-                {"option": "wash tumbler",     "correct": false},
-                {"option": "washing machine",     "correct": true} // no comma here
-            ],
-            "correct": "<p><span>Correct!</span>washing machine</p>",
-            "incorrect": "<p><span>Fail!</span>washing machine</p>" // no comma here
-        },
-
-        { // Question 24
-            "q": "Choose your answer",
-            "a": [
-                {"option": "gas range",    "correct": true},
-                {"option": "cooking range",     "correct": false},
-                {"option": "burner",     "correct": false} // no comma here
-            ],
-            "correct": "<p><span>Correct!</span>gas range</p>",
-            "incorrect": "<p><span>Fail!</span>gas range</p>" // no comma here
-        },
-
-        { // Question 25
-            "q": "Choose your answer",
-            "a": [
-                {"option": "sieve",    "correct": false},
-                {"option": "tea plate",     "correct": false},
-                {"option": "saucer",     "correct": true} // no comma here
-            ],
-            "correct": "<p><span>Correct!</span>saucer</p>",
-            "incorrect": "<p><span>Fail!</span>saucer</p>" // no comma here
-        },
-		
-		{ // Question 26
-            "q": "Choose your answer",
-            "a": [
-                {"option": "blender",    "correct": true},
-                {"option": "mixer",     "correct": false},
-                {"option": "juicer",     "correct": false} // no comma here
-            ],
-            "correct": "<p><span>Correct!</span>blender</p>",
-            "incorrect": "<p><span>Fail!</span>blender</p>" // no comma here
-        },
-		
-		{ // Question 27
-            "q": "Choose your answer",
-            "a": [
-                {"option": "blender",    "correct": false},
-                {"option": "mixer",     "correct": true},
-                {"option": "juicer",     "correct": false} // no comma here
-            ],
-            "correct": "<p><span>Correct!</span>mixer</p>",
-            "incorrect": "<p><span>Fail!</span>mixer</p>" // no comma here
-        },
+            "correct": "<p><span>Correct!</span>fluffy</p>",
+            "incorrect": "<p><span>Fail!</span>fluffy</p>" // no comma here
+        }, 
 
     ]
 };
