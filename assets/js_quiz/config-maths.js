@@ -1,12 +1,8 @@
-// Setup your quiz text and questions here
-
-// NOTE: pay attention to commas, IE struggles with those bad boys
-
 var quizJSON = {
     "info": {
         "name":    "Mathematics",
         "main":    "",
-        "results": "<h5>Make notes</h5>",
+        "results": "",
         "level1":  "Excellent!",
         "level2":  "Good!",
         "level3":  "Average",
@@ -40,7 +36,7 @@ var quizJSON = {
             "a": [
                 {"option": "googol",    "correct": false},
                 {"option": "infinity",     "correct": true},
-                {"option": "really big number",      "correct": false} // no comma here
+                {"option": "lemniscate",      "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>infinity</p>",
             "incorrect": "<p><span>Fail!</span>infinity</p>" // no comma here
@@ -130,8 +126,8 @@ var quizJSON = {
                 {"option": "digit",     "correct": false},
                 {"option": "both are OK",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>Both are OK</p>",
-            "incorrect": "<p><span>Fail!</span>Both are OK</p>" // no comma here
+            "correct": "<p><span>Correct!</span>both are OK</p>",
+            "incorrect": "<p><span>Fail!</span>both are OK</p>" // no comma here
         },
 
         { // Question 12
@@ -225,24 +221,24 @@ var quizJSON = {
         { // Question 20
             "q": "Choose your answer",
             "a": [
-                {"option": "abacus",    "correct": true},
-                {"option": "slide counter",     "correct": false},
-                {"option": "Chinese calculator",     "correct": false} // no comma here
-            ],
-            "correct": "<p><span>Correct!</span>abacus</p>",
-            "incorrect": "<p><span>Fail!</span>abacus</p>" // no comma here
-        },   
-
-        { // Question 21
-            "q": "Choose your answer",
-            "a": [
                 {"option": "statistics",    "correct": false},
                 {"option": "calculus",     "correct": false},
                 {"option": "geometry",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span>geometry</p>",
             "incorrect": "<p><span>Fail!</span>geometry</p>" // no comma here
-        },   
+        },  
+
+		{ // Question 21
+            "q": "Choose your answer",
+            "a": [
+                {"option": "abacus",    "correct": true},
+                {"option": "slide counter",     "correct": false},
+                {"option": "Chinese counter",     "correct": false} // no comma here
+            ],
+            "correct": "<p><span>Correct!</span>abacus</p>",
+            "incorrect": "<p><span>Fail!</span>abacus</p>" // no comma here
+        },  		
 
         { // Question 22
             "q": "Choose your answer",
@@ -258,9 +254,9 @@ var quizJSON = {
         { // Question 23
             "q": "Choose your answer",
             "a": [
-                {"option": "addition",    "correct": false},
+                {"option": "subtraction",    "correct": true},
                 {"option": "multiplication",     "correct": false},
-                {"option": "subtraction",     "correct": true} // no comma here
+                {"option": "addition",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>subtraction</p>",
             "incorrect": "<p><span>Fail!</span>subtraction</p>" // no comma here
@@ -293,10 +289,10 @@ var quizJSON = {
             "a": [
                 {"option": "sum",    "correct": false},
                 {"option": "total",     "correct": false},
-                {"option": "Both are OK",     "correct": true} // no comma here
+                {"option": "both are OK",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span>Both are OK</p>",
-            "incorrect": "<p><span>Fail!</span>Both are OK</p>" // no comma here
+            "correct": "<p><span>Correct!</span>both are OK</p>",
+            "incorrect": "<p><span>Fail!</span>both are OK</p>" // no comma here
         }, 
 		
 		{ // Question 27
