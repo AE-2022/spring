@@ -1,7 +1,3 @@
-// Setup your quiz text and questions here
-
-// NOTE: pay attention to commas, IE struggles with those bad boys
-
 var quizJSON = {
     "info": {
         "name":    "Architecture quiz",
@@ -22,7 +18,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
         { // Question 2
             "q": "Choose your answer",
@@ -32,7 +28,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
        
         { // Question 3
@@ -43,7 +39,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
     
         { // Question 4
@@ -54,7 +50,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
          { // Question 5
@@ -65,7 +61,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 6
@@ -76,7 +72,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 7
@@ -87,7 +83,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 8
@@ -98,7 +94,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
          { // Question 9
@@ -109,7 +105,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 10
@@ -120,7 +116,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 11
@@ -131,7 +127,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 12
@@ -142,7 +138,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 13
@@ -153,7 +149,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 14
@@ -164,7 +160,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 15
@@ -175,7 +171,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 16
@@ -186,7 +182,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 17
@@ -197,7 +193,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
          { // Question 18
@@ -208,7 +204,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 19
@@ -219,7 +215,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 
         { // Question 20
@@ -230,7 +226,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },   
 
         { // Question 21
@@ -241,7 +237,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },   
 
         { // Question 22
@@ -252,7 +248,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },   
 
         { // Question 23
@@ -263,7 +259,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },  
 
         { // Question 24
@@ -274,7 +270,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
         
         { // Question 25
@@ -285,7 +281,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         }, 
 		
 		{ // Question 26
@@ -296,7 +292,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 		
 		{ // Question 27
@@ -307,7 +303,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 		
 		{ // Question 28
@@ -318,7 +314,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 		
 		{ // Question 29
@@ -329,7 +325,7 @@ var quizJSON = {
                 {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 		
 		{ // Question 30
@@ -340,7 +336,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 		
 		{ // Question 31
@@ -351,7 +347,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 		
 		{ // Question 32
@@ -362,7 +358,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 		
 		{ // Question 33
@@ -373,7 +369,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 		{ // Question 34
             "q": "Choose your answer",
@@ -383,7 +379,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 		
 		{ // Question 35
@@ -394,7 +390,7 @@ var quizJSON = {
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span></p>" // no comma here
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
     ]
 };
