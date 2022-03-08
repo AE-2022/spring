@@ -23,9 +23,9 @@ var quizJSON = {
         { // Question 2
             "q": "Choose your answer",
             "a": [
-                {"option": "a",    "correct": false},
+                {"option": "a",    "correct": true},
                 {"option": "b",    "correct": false},
-                {"option": "c",     "correct": true} // no comma here
+                {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
@@ -34,8 +34,8 @@ var quizJSON = {
         { // Question 3
             "q": "Choose your answer",
             "a": [
-                {"option": "a",    "correct": false},
-                {"option": "b",    "correct": true},
+                {"option": "a",    "correct": true},
+                {"option": "b",    "correct": false},
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
@@ -45,9 +45,9 @@ var quizJSON = {
         { // Question 4
             "q": "Choose your answer",
             "a": [
-                {"option": "a",    "correct": true},
+                {"option": "a",    "correct": false},
                 {"option": "b",    "correct": false},
-                {"option": "c",     "correct": false} // no comma here
+                {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
@@ -78,8 +78,8 @@ var quizJSON = {
         { // Question 7
             "q": "Choose your answer",
             "a": [
-                {"option": "a",    "correct": false},
-                {"option": "b",    "correct": true},
+                {"option": "a",    "correct": true},
+                {"option": "b",    "correct": false},
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
@@ -90,8 +90,8 @@ var quizJSON = {
             "q": "Choose your answer",
             "a": [
                 {"option": "a",    "correct": false},
-                {"option": "b",    "correct": false},
-                {"option": "c",     "correct": true} // no comma here
+                {"option": "b",    "correct": true},
+                {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
@@ -101,8 +101,8 @@ var quizJSON = {
             "q": "Choose your answer",
             "a": [
                 {"option": "a",    "correct": false},
-                {"option": "b",    "correct": true},
-                {"option": "c",     "correct": false} // no comma here
+                {"option": "b",    "correct": false},
+                {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
@@ -155,9 +155,9 @@ var quizJSON = {
         { // Question 14
             "q": "Choose your answer",
             "a": [
-                {"option": "a",    "correct": false},
+                {"option": "a",    "correct": true},
                 {"option": "b",    "correct": false},
-                {"option": "c",     "correct": true} // no comma here
+                {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
@@ -166,8 +166,8 @@ var quizJSON = {
         { // Question 15
             "q": "Choose your answer",
             "a": [
-                {"option": "a",    "correct": true},
-                {"option": "b",    "correct": false},
+                {"option": "a",    "correct": false},
+                {"option": "b",    "correct": true},
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
@@ -178,8 +178,8 @@ var quizJSON = {
             "q": "Choose your answer",
             "a": [
                 {"option": "a",    "correct": false},
-                {"option": "b",    "correct": false},
-                {"option": "c",     "correct": true} // no comma here
+                {"option": "b",    "correct": true},
+                {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
@@ -189,8 +189,8 @@ var quizJSON = {
             "q": "Choose your answer",
             "a": [
                 {"option": "a",    "correct": false},
-                {"option": "b",    "correct": true},
-                {"option": "c",     "correct": false} // no comma here
+                {"option": "b",    "correct": false},
+                {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
@@ -222,8 +222,8 @@ var quizJSON = {
             "q": "Choose your answer",
             "a": [
                 {"option": "a",    "correct": false},
-                {"option": "b",    "correct": false},
-                {"option": "c",     "correct": true} // no comma here
+                {"option": "b",    "correct": true},
+                {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
@@ -244,8 +244,8 @@ var quizJSON = {
             "q": "Choose your answer",
             "a": [
                 {"option": "a",    "correct": false},
-                {"option": "b",    "correct": false},
-                {"option": "c",     "correct": true} // no comma here
+                {"option": "b",    "correct": true},
+                {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
@@ -265,9 +265,9 @@ var quizJSON = {
         { // Question 24
             "q": "Choose your answer",
             "a": [
-                {"option": "a",    "correct": false},
+                {"option": "a",    "correct": true},
                 {"option": "b",    "correct": false},
-                {"option": "c",     "correct": true} // no comma here
+                {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
@@ -276,9 +276,9 @@ var quizJSON = {
         { // Question 25
             "q": "Choose your answer",
             "a": [
-                {"option": "a",    "correct": true},
+                {"option": "a",    "correct": false},
                 {"option": "b",    "correct": false},
-                {"option": "c",     "correct": false} // no comma here
+                {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
@@ -298,8 +298,8 @@ var quizJSON = {
 		{ // Question 27
             "q": "Choose your answer",
             "a": [
-                {"option": "a",    "correct": false},
-                {"option": "b",    "correct": true},
+                {"option": "a",    "correct": true},
+                {"option": "b",    "correct": false},
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
@@ -343,25 +343,14 @@ var quizJSON = {
             "q": "Choose your answer",
             "a": [
                 {"option": "a",    "correct": false},
-                {"option": "b",    "correct": true},
-                {"option": "c",     "correct": false} // no comma here
+                {"option": "b",    "correct": false},
+                {"option": "c",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 		
 		{ // Question 32
-            "q": "Choose your answer",
-            "a": [
-                {"option": "a",    "correct": false},
-                {"option": "b",    "correct": true},
-                {"option": "c",     "correct": false} // no comma here
-            ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span></p>" // no comma here
-        },
-		
-		{ // Question 33
             "q": "Choose your answer",
             "a": [
                 {"option": "a",    "correct": true},
@@ -371,7 +360,40 @@ var quizJSON = {
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
+		
+		{ // Question 33
+            "q": "Choose your answer",
+            "a": [
+                {"option": "a",    "correct": false},
+                {"option": "b",    "correct": false},
+                {"option": "c",     "correct": true} // no comma here
+            ],
+            "correct": "<p><span>Correct!</span></p>",
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
+        },
 		{ // Question 34
+            "q": "Choose your answer",
+            "a": [
+                {"option": "a",    "correct": false},
+                {"option": "b",    "correct": false},
+                {"option": "c",     "correct": true} // no comma here
+            ],
+            "correct": "<p><span>Correct!</span></p>",
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
+        },
+		
+		{ // Question 35
+            "q": "Choose your answer",
+            "a": [
+                {"option": "a",    "correct": true},
+                {"option": "b",    "correct": false},
+                {"option": "c",     "correct": false} // no comma here
+            ],
+            "correct": "<p><span>Correct!</span></p>",
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
+        },
+		
+		{ // Question 36
             "q": "Choose your answer",
             "a": [
                 {"option": "a",    "correct": false},
@@ -382,11 +404,44 @@ var quizJSON = {
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
         },
 		
-		{ // Question 35
+		{ // Question 37
+            "q": "Choose your answer",
+            "a": [
+                {"option": "a",    "correct": true},
+                {"option": "b",    "correct": false},
+                {"option": "c",     "correct": false} // no comma here
+            ],
+            "correct": "<p><span>Correct!</span></p>",
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
+        },
+		
+		{ // Question 38
+            "q": "Choose your answer",
+            "a": [
+                {"option": "a",    "correct": false},
+                {"option": "b",    "correct": false},
+                {"option": "c",     "correct": true} // no comma here
+            ],
+            "correct": "<p><span>Correct!</span></p>",
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
+        },
+		
+		{ // Question 39
             "q": "Choose your answer",
             "a": [
                 {"option": "a",    "correct": false},
                 {"option": "b",    "correct": true},
+                {"option": "c",     "correct": false} // no comma here
+            ],
+            "correct": "<p><span>Correct!</span></p>",
+            "incorrect": "<p><span>Fail!</span></p>" // no comma here
+        },
+		
+		{ // Question 40
+            "q": "Choose your answer",
+            "a": [
+                {"option": "a",    "correct": true},
+                {"option": "b",    "correct": false},
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
