@@ -1,6 +1,6 @@
 var quizJSON = {
     "info": {
-        "name":    "Chivil Engineering quiz",
+        "name":    "Civil Engineering quiz",
         "main":    "",
         "results": "",
         "level1":  "Excellent!",
