@@ -1,6 +1,6 @@
 var quizJSON = {
     "info": {
-        "name":    "Chemistry and Materials quiz",
+        "name":    "Chivil Engineering quiz",
         "main":    "",
         "results": "",
         "level1":  "Excellent!",
@@ -233,8 +233,8 @@ var quizJSON = {
             "q": "Choose your answer",
             "a": [
                 {"option": "a",    "correct": false},
-                {"option": "b",    "correct": false},
-                {"option": "c",     "correct": true} // no comma here
+                {"option": "b",    "correct": true},
+                {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
             "incorrect": "<p><span>Fail!</span></p>" // no comma here
@@ -440,8 +440,8 @@ var quizJSON = {
 		{ // Question 40
             "q": "Choose your answer",
             "a": [
-                {"option": "a",    "correct": true},
-                {"option": "b",    "correct": false},
+                {"option": "a",    "correct": false},
+                {"option": "b",    "correct": true},
                 {"option": "c",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p>",
