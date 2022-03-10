@@ -1,12 +1,8 @@
-// Setup your quiz text and questions here
-
-// NOTE: pay attention to commas, IE struggles with those bad boys
-
 var quizJSON = {
     "info": {
         "name":    "Time",
         "main":    "",
-        "results": "<h5>Test next lesson.</h5>",
+        "results": "",
         "level1":  "Excellent!",
         "level2":  "Good!",
         "level3":  "Average",
@@ -21,8 +17,8 @@ var quizJSON = {
                 {"option": "first period",    "correct": false},
                 {"option": "first semester",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span> First semester.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>first semester</p>",
+            "incorrect": "<p><span>Fail!</span>first semester</p>" // no comma here
         },
         { // Question 2
             "q": "Choose your answer",
@@ -31,8 +27,8 @@ var quizJSON = {
                 {"option": "sand timer",    "correct": false},
                 {"option": "hourglass",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span> </p>",
-            "incorrect": "<p><span>Fail.</span> Hourglass.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>hourglass</p>",
+            "incorrect": "<p><span>Fail!</span>hourglass</p>" // no comma here
         },
        
         { // Question 3
@@ -42,8 +38,8 @@ var quizJSON = {
                 {"option": "extra time",     "correct": false},
                 {"option": "excess time",      "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Overtime.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>overtime</p>",
+            "incorrect": "<p><span>Fail!</span>overtime</p>" // no comma here
         },
     
         { // Question 4
@@ -53,8 +49,8 @@ var quizJSON = {
                 {"option": "extra-day year",     "correct": false},
                 {"option": "leap year",      "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span> </p>",
-            "incorrect": "<p><span>Fail!</span> Leap year.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>leap year</p>",
+            "incorrect": "<p><span>Fail!</span>leap year</p>" // no comma here
         },
 
          { // Question 5
@@ -64,8 +60,8 @@ var quizJSON = {
                 {"option": "money year",     "correct": false},
                 {"option": "fiscal year",      "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Fiscal year.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>fiscal year</p>",
+            "incorrect": "<p><span>Fail!</span>fiscal year</p>" // no comma here
         },
 
         { // Question 6
@@ -75,8 +71,8 @@ var quizJSON = {
                 {"option": "thousand era",     "correct": false},
                 {"option": "millennium",      "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Millennium.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>millennium</p>",
+            "incorrect": "<p><span>Fail!</span>millennium</p>" // no comma here
         },
 
         { // Question 7
@@ -86,8 +82,8 @@ var quizJSON = {
                 {"option": "the day before yesterday",     "correct": false},
                 {"option": "both are OK",      "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Both are OK.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>Both are OK</p>",
+            "incorrect": "<p><span>Fail!</span>Both are OK</p>" // no comma here
         },
 
         { // Question 8
@@ -97,8 +93,8 @@ var quizJSON = {
                 {"option": "evening",     "correct": true},
                 {"option": "night",      "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Evening.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>evening</p>",
+            "incorrect": "<p><span>Fail!</span>evening</p>" // no comma here
         },
 
          { // Question 9
@@ -108,8 +104,8 @@ var quizJSON = {
                 {"option": "daytime",    "correct": false},
                 {"option": "dusk",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Afternoon.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>afternoon</p>",
+            "incorrect": "<p><span>Fail!</span>afternoon</p>" // no comma here
         },
 
         { // Question 10
@@ -118,8 +114,8 @@ var quizJSON = {
                 {"option": "dawn",    "correct": false},
                 {"option": "dusk",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Dusk.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>dusk</p>",
+            "incorrect": "<p><span>Fail!</span>dusk</p>" // no comma here
         },
 
         { // Question 11
@@ -128,8 +124,8 @@ var quizJSON = {
                 {"option": "dawn",    "correct": true},
                 {"option": "dusk",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Dawn.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>dawn</p>",
+            "incorrect": "<p><span>Fail!</span>dawn</p>" // no comma here
         },
 
         { // Question 12
@@ -139,8 +135,8 @@ var quizJSON = {
                 {"option": "daylight clock",     "correct": false},
                 {"option": "sundial",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Sundial.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>sundial</p>",
+            "incorrect": "<p><span>Fail!</span>sundial</p>" // no comma here
         },
 
         { // Question 13
@@ -150,8 +146,8 @@ var quizJSON = {
                 {"option": "deca-year",     "correct": false},
                 {"option": "decade",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Decade.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>decade</p>",
+            "incorrect": "<p><span>Fail!</span>decade</p>" // no comma here
         },
 
         { // Question 14
@@ -161,8 +157,8 @@ var quizJSON = {
                 {"option": "clock circle",     "correct": false},
                 {"option": "clock front",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Clock face.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>clock face</p>",
+            "incorrect": "<p><span>Fail!</span>clock face</p>" // no comma here
         },
 
         { // Question 15
@@ -172,8 +168,8 @@ var quizJSON = {
                 {"option": "midday",     "correct": false},
                 {"option": "noon",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Midnight.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>midnight</p>",
+            "incorrect": "<p><span>Fail!</span>midnight</p>" // no comma here
         },
 
         { // Question 16
@@ -183,8 +179,8 @@ var quizJSON = {
                 {"option": "the day next day",     "correct": false},
                 {"option": "tomorrow next",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> The day after tomorrow.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>the day after tomorrow</p>",
+            "incorrect": "<p><span>Fail!</span>the day after tomorrow</p>" // no comma here
         },
 
         { // Question 17
@@ -194,8 +190,8 @@ var quizJSON = {
                 {"option": "noon",     "correct": false},
                 {"option": "Both are OK",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Both are OK.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>Both are OK</p>",
+            "incorrect": "<p><span>Fail!</span>Both are OK</p>" // no comma here
         },
 
          { // Question 18
@@ -205,8 +201,8 @@ var quizJSON = {
                 {"option": "decade",     "correct": false},
                 {"option": "millennium",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Century.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>century</p>",
+            "incorrect": "<p><span>Fail!</span>century</p>" // no comma here
         },
 
         { // Question 19
@@ -216,8 +212,8 @@ var quizJSON = {
                 {"option": "International time",     "correct": false},
                 {"option": "World standard time",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Greenwich mean time.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>Greenwich mean time</p>",
+            "incorrect": "<p><span>Fail!</span>Greenwich mean time</p>" // no comma here
         },
 
         { // Question 20
@@ -227,8 +223,8 @@ var quizJSON = {
                 {"option": "time to bed",     "correct": false},
                 {"option": "bedtime",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Bedtime.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>bedtime</p>",
+            "incorrect": "<p><span>Fail!</span>bedtime</p>" // no comma here
         },   
 
         { // Question 21
@@ -238,8 +234,8 @@ var quizJSON = {
                 {"option": "era",     "correct": true},
                 {"option": "time",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Era.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>era</p>",
+            "incorrect": "<p><span>Fail!</span>era</p>" // no comma here
         },   
 
         { // Question 22
@@ -249,8 +245,8 @@ var quizJSON = {
                 {"option": "second period",     "correct": false},
                 {"option": "second era",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Second semester.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>second semester</p>",
+            "incorrect": "<p><span>Fail!</span>second semester</p>" // no comma here
         },   
 
         { // Question 23
@@ -260,8 +256,8 @@ var quizJSON = {
                 {"option": "all year",     "correct": false},
                 {"option": "annual",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Annual.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>annual</p>",
+            "incorrect": "<p><span>Fail!</span>annual</p>" // no comma here
         },  
 
         { // Question 24
@@ -271,8 +267,8 @@ var quizJSON = {
                 {"option": "tall father clock",     "correct": false},
                 {"option": "grandfather clock",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Grandfather clock.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>grandfather clock</p>",
+            "incorrect": "<p><span>Fail!</span>grandfather clock</p>" // no comma here
         },  
 
         { // Question 25
@@ -282,8 +278,8 @@ var quizJSON = {
                 {"option": "day-extend time",     "correct": false},
                 {"option": "daylight savings time",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Daylight savings time.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>daylight savings time</p>",
+            "incorrect": "<p><span>Fail!</span>daylight savings time</p>" // no comma here
         },  
 
         { // Question 26
@@ -293,8 +289,8 @@ var quizJSON = {
                 {"option": "night",     "correct": false},
                 {"option": "dawn",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Morning.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>morning</p>",
+            "incorrect": "<p><span>Fail!</span>morning</p>" // no comma here
         },  
 
         { // Question 27
@@ -304,8 +300,8 @@ var quizJSON = {
                 {"option": "fortnight",     "correct": true},
                 {"option": "both are OK",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Fortnight.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>fortnight</p>",
+            "incorrect": "<p><span>Fail!</span>fortnight</p>" // no comma here
         },  
 
 
@@ -316,8 +312,8 @@ var quizJSON = {
                 {"option": "hour line",     "correct": false},
                 {"option": "hour pointer",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Hour hand.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>hour hand</p>",
+            "incorrect": "<p><span>Fail!</span>hour hand</p>" // no comma here
         },  
 
 
@@ -328,8 +324,8 @@ var quizJSON = {
                 {"option": "minute lever",     "correct": false},
                 {"option": "minute pointer",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> Minute hand.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>minute hand</p>",
+            "incorrect": "<p><span>Fail!</span>minute hand</p>" // no comma here
         },  
 
         { // Question 30
@@ -339,8 +335,8 @@ var quizJSON = {
                 {"option": "international date line",     "correct": true},
                 {"option": "international day line",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> International date line.</p>" // no comma here
+            "correct": "<p><span>Correct!</span>international date line</p>",
+            "incorrect": "<p><span>Fail!</span>international date line</p>" // no comma here
         },  
 
 
