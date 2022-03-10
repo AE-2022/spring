@@ -1,6 +1,6 @@
 var quizJSON = {
     "info": {
-        "name":    "Fruits, vegetables, and nuts",
+        "name":    "Fruits, Vegetables, and Nuts",
         "main":    "",
         "results": "",
         "level1":  "Excellent!",
@@ -18,7 +18,7 @@ var quizJSON = {
                 {"option": "peach",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span>apricot</p>",
-            "incorrect": "<p><span>Fail.</span>apricot</p>" // no comma here
+            "incorrect": "<p><span>Fail!</span>apricot</p>" // no comma here
         },
         { // Question 2
             "q": "Choose your answer",
@@ -28,7 +28,7 @@ var quizJSON = {
                 {"option": "blackberry",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span>blackberry</p>",
-            "incorrect": "<p><span>Fail.</span>blackberry</p>" // no comma here
+            "incorrect": "<p><span>Fail!</span>blackberry</p>" // no comma here
         },
        
         { // Question 3
