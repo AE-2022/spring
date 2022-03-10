@@ -1,12 +1,8 @@
-// Setup your quiz text and questions here
-
-// NOTE: pay attention to commas, IE struggles with those bad boys
-
 var quizJSON = {
     "info": {
         "name":    "Tools",
         "main":    "",
-        "results": "<h5>Test next lesson.</h5>",
+        "results": "",
         "level1":  "Excellent!",
         "level2":  "Good!",
         "level3":  "Average",
@@ -21,8 +17,8 @@ var quizJSON = {
                 {"option": "hex wrench",    "correct": false},
                 {"option": "loupe",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail.</span> Allen key</p>" // no comma here
+            "correct": "<p><span>Correct!</span>allen key</p>",
+            "incorrect": "<p><span>Fail!</span>allen key</p>" // no comma here
         },
         { // Question 2
             "q": "Choose your answer",
@@ -31,8 +27,8 @@ var quizJSON = {
                 {"option": "wood shaver",    "correct": false},
                 {"option": "wood level",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span> </p>",
-            "incorrect": "<p><span>Fail.</span> wood plane</p>" // no comma here
+            "correct": "<p><span>Correct!</span>wood plane</p>",
+            "incorrect": "<p><span>Fail!</span>wood plane</p>" // no comma here
         },
        
         { // Question 3
@@ -42,8 +38,8 @@ var quizJSON = {
                 {"option": "pliers",     "correct": true},
                 {"option": "nippers",      "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> pliers</p>" // no comma here
+            "correct": "<p><span>Correct!</span>pliers</p>",
+            "incorrect": "<p><span>Fail!</span>pliers</p>" // no comma here
         },
     
         { // Question 4
@@ -53,8 +49,8 @@ var quizJSON = {
                 {"option": "gripper",     "correct": false},
                 {"option": "clamp",      "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span> </p>",
-            "incorrect": "<p><span>Fail!</span> vice</p>" // no comma here
+            "correct": "<p><span>Correct!</span>vice</p>",
+            "incorrect": "<p><span>Fail!</span>vice</p>" // no comma here
         },
 
          { // Question 5
@@ -64,8 +60,8 @@ var quizJSON = {
                 {"option": "plus screwdriver",     "correct": false},
                 {"option": "double driver",      "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> phillips screwdriver</p>" // no comma here
+            "correct": "<p><span>Correct!</span>phillips screwdriver</p>",
+            "incorrect": "<p><span>Fail!</span>phillips screwdriver</p>" // no comma here
         },
 
         { // Question 6
@@ -75,8 +71,8 @@ var quizJSON = {
                 {"option": "minus-head screwdriver",     "correct": false},
                 {"option": "single driver",      "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> flat-head screwdriver</p>" // no comma here
+            "correct": "<p><span>Correct!</span>flathead screwdriver</p>",
+            "incorrect": "<p><span>Fail!</span>flathead screwdriver</p>" // no comma here
         },
 
         { // Question 7
@@ -86,8 +82,8 @@ var quizJSON = {
                 {"option": "wire cutters",     "correct": true},
                 {"option": "pliers",      "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> wire cutters</p>" // no comma here
+            "correct": "<p><span>Correct!</span>wire cutters</p>",
+            "incorrect": "<p><span>Fail!</span>wire cutters</p>" // no comma here
         },
 
         { // Question 8
@@ -97,8 +93,8 @@ var quizJSON = {
                 {"option": "hacksaw",     "correct": true},
                 {"option": "mini saw",      "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> hacksaw</p>" // no comma here
+            "correct": "<p><span>Correct!</span>hacksaw</p>",
+            "incorrect": "<p><span>Fail!</span>hacksaw</p>" // no comma here
         },
 
          { // Question 9
@@ -108,8 +104,8 @@ var quizJSON = {
                 {"option": "crowbar",    "correct": true},
                 {"option": "freeman bar",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> crowbar</p>" // no comma here
+            "correct": "<p><span>Correct!</span>crowbar</p>",
+            "incorrect": "<p><span>Fail!</span>crowbar</p>" // no comma here
         },
 
         { // Question 10
@@ -119,8 +115,8 @@ var quizJSON = {
                 {"option": "soldering iron",    "correct": true},
                 {"option": "solder melder",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> soldering iron</p>" // no comma here
+            "correct": "<p><span>Correct!</span>soldering iron</p>",
+            "incorrect": "<p><span>Fail!</span>soldering iron</p>" // no comma here
         },
 
         { // Question 11
@@ -130,8 +126,8 @@ var quizJSON = {
                 {"option": "rough paper",     "correct": false},
                 {"option": "diamond paper",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> sandpaper</p>" // no comma here
+            "correct": "<p><span>Correct!</span>sandpaper</p>",
+            "incorrect": "<p><span>Fail!</span>sandpaper</p>" // no comma here
         },
 
         { // Question 12
@@ -141,8 +137,8 @@ var quizJSON = {
                 {"option": "mallet",     "correct": true},
                 {"option": "sledgehammer",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> mallet</p>" // no comma here
+            "correct": "<p><span>Correct!</span>mallet</p>",
+            "incorrect": "<p><span>Fail!</span>mallet</p>" // no comma here
         },
 
         { // Question 13
@@ -152,8 +148,8 @@ var quizJSON = {
                 {"option": "sledgehammer",     "correct": true},
                 {"option": "heavy-duty mallet",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> sledgehammer</p>" // no comma here
+            "correct": "<p><span>Correct!</span>sledgehammer</p>",
+            "incorrect": "<p><span>Fail!</span>sledgehammer</p>" // no comma here
         },
 
         { // Question 14
@@ -163,8 +159,8 @@ var quizJSON = {
                 {"option": "wood shaver",     "correct": false},
                 {"option": "chisel",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> chisel</p>" // no comma here
+            "correct": "<p><span>Correct!</span>chisel</p>",
+            "incorrect": "<p><span>Fail!</span>chisel</p>" // no comma here
         },
 
         { // Question 15
@@ -174,8 +170,8 @@ var quizJSON = {
                 {"option": "wire stripper",     "correct": true},
                 {"option": "wire gauge",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> wire stripper</p>" // no comma here
+            "correct": "<p><span>Correct!</span>wire stripper</p>",
+            "incorrect": "<p><span>Fail!</span>wire stripper</p>" // no comma here
         },
 
         { // Question 16
@@ -185,8 +181,8 @@ var quizJSON = {
                 {"option": "dumper cart",     "correct": false},
                 {"option": "dumpbarrow",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> wheelbarrow</p>" // no comma here
+            "correct": "<p><span>Correct!</span>wheelbarrow</p>",
+            "incorrect": "<p><span>Fail!</span>wheelbarrow</p>" // no comma here
         },
 
         { // Question 17
@@ -196,8 +192,8 @@ var quizJSON = {
                 {"option": "igniter",     "correct": false},
                 {"option": "blowtorch",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> blowtorch</p>" // no comma here
+            "correct": "<p><span>Correct!</span>blowtorch</p>",
+            "incorrect": "<p><span>Fail!</span>blowtorch</p>" // no comma here
         },
 
          { // Question 18
@@ -207,8 +203,8 @@ var quizJSON = {
 				{"option": "staple blaster",    "correct": false},
                 {"option": "staple wrench",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> staple gun</p>" // no comma here
+            "correct": "<p><span>Correct!</span>staple gun</p>",
+            "incorrect": "<p><span>Fail!</span>staple gun</p>" // no comma here
         },
 
         { // Question 19
@@ -218,8 +214,8 @@ var quizJSON = {
 				{"option": "line measure",    "correct": false},
                 {"option": "level",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> level</p>" // no comma here
+            "correct": "<p><span>Correct!</span>level</p>",
+            "incorrect": "<p><span>Fail!</span>level</p>" // no comma here
         },
 
         { // Question 20
@@ -229,8 +225,8 @@ var quizJSON = {
                 {"option": "corner level",     "correct": false},
                 {"option": "t-square",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> try square</p>" // no comma here
+            "correct": "<p><span>Correct!</span>try square</p>",
+            "incorrect": "<p><span>Fail!</span>try square</p>" // no comma here
         },   
 
         { // Question 21
@@ -238,10 +234,10 @@ var quizJSON = {
             "a": [
                 {"option": "tee-ax",    "correct": false},
                 {"option": "double ax",     "correct": false},
-                {"option": "pick ax",     "correct": true} // no comma here
+                {"option": "pickaxe",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> pick ax</p>" // no comma here
+            "correct": "<p><span>Correct!</span>pickaxe</p>",
+            "incorrect": "<p><span>Fail!</span>pickaxe</p>" // no comma here
         },   
 
         { // Question 22
@@ -251,8 +247,8 @@ var quizJSON = {
                 {"option": "dog wrench",     "correct": false},
                 {"option": "gator wrench",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> monkey wrench</p>" // no comma here
+            "correct": "<p><span>Correct!</span>monkey wrench</p>",
+            "incorrect": "<p><span>Fail!</span>monkey wrench</p>" // no comma here
         },   
 
         { // Question 23
@@ -262,63 +258,63 @@ var quizJSON = {
                 {"option": "cordless drill",     "correct": true},
                 {"option": "battery drill",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> cordless drill</p>" // no comma here
+            "correct": "<p><span>Correct!</span>cordless drill</p>",
+            "incorrect": "<p><span>Fail!</span>cordless drill</p>" // no comma here
         },  
 
         { // Question 24
             "q": "Choose your answer",
             "a": [
-                {"option": "mini crane",    "correct": false},
-                {"option": "cherry picker",     "correct": true},
-                {"option": "portable elevator",     "correct": false} // no comma here
+                {"option": "rule measure",    "correct": false},
+                {"option": "tape measure",     "correct": true},
+                {"option": "line measure",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> cherry picker</p>" // no comma here
+            "correct": "<p><span>Correct!</span>tape measure</p>",
+            "incorrect": "<p><span>Fail!</span>tape measure</p>" // no comma here
         },
         
         { // Question 25
+            "q": "Choose your answer",
+            "a": [
+                {"option": "mini crane",    "correct": false},
+                {"option": "cherry picker",     "correct": true},
+                {"option": "mini elevator",     "correct": false} // no comma here
+            ],
+            "correct": "<p><span>Correct!</span>cherry picker</p>",
+            "incorrect": "<p><span>Fail!</span>cherry picker</p>" // no comma here
+        }, 
+		
+		{ // Question 26
             "q": "Choose your answer",
             "a": [
                 {"option": "concrete bucket",    "correct": false},
                 {"option": "concrete machine",     "correct": false},
                 {"option": "concrete mixer",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> concrete mixer</p>" // no comma here
-        }, 
-		
-		{ // Question 26
-            "q": "Choose your answer",
-            "a": [
-                {"option": "ribbon measure",    "correct": false},
-                {"option": "tape measure",     "correct": true},
-                {"option": "line measure",     "correct": false} // no comma here
-            ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> tape measure</p>" // no comma here
+            "correct": "<p><span>Correct!</span>concrete mixer</p>",
+            "incorrect": "<p><span>Fail!</span>concrete mixer</p>" // no comma here
         }, 
 		
 		{ // Question 27
             "q": "Choose your answer",
             "a": [
-                {"option": "circle cutter",    "correct": false},
-                {"option": "circular saw",     "correct": true},
-                {"option": "rotary slicer",     "correct": false} // no comma here
+                {"option": "scraper",    "correct": false},
+                {"option": "rake",     "correct": true},
+                {"option": "claw",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> circular saw</p>" // no comma here
+            "correct": "<p><span>Correct!</span>rake</p>",
+            "incorrect": "<p><span>Fail!</span>rake</p>" // no comma here
         }, 
 		
 		{ // Question 28
             "q": "Choose your answer",
             "a": [
-                {"option": "anvil",    "correct": true},
-                {"option": "vice",     "correct": false},
-                {"option": "metal horn",     "correct": false} // no comma here
+                {"option": "rachete",    "correct": false},
+                {"option": "rachet",     "correct": false},
+                {"option": "ratchet",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Correct!</span></p>",
-            "incorrect": "<p><span>Fail!</span> anvil</p>" // no comma here
+            "correct": "<p><span>Correct!</span>ratchet</p>",
+            "incorrect": "<p><span>Fail!</span>ratchet</p>" // no comma here
         }, 
     ]
 };
