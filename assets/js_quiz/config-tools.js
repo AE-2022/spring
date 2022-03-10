@@ -67,7 +67,7 @@ var quizJSON = {
         { // Question 6
             "q": "Choose your answer",
             "a": [
-                {"option": "flat-head screwdriver",    "correct": true},
+                {"option": "flathead screwdriver",    "correct": true},
                 {"option": "minus-head screwdriver",     "correct": false},
                 {"option": "single driver",      "correct": false} // no comma here
             ],
